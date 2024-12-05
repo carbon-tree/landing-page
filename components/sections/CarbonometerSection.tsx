@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export default function CarbonometerSection() {
   const [time, setTime] = useState(0);
-  const [isRunning, setIsRunning] = useState(false);
+  const [isRunning] = useState(false);
 
   useEffect(() => {
     let intervalId: NodeJS.Timeout;
