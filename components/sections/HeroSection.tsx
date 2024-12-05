@@ -1,23 +1,17 @@
-import { useTranslations } from 'next-intl';
-import LanguageSwitcher from '../LanguageSwitcher';
 
 export default function HeroSection() {
-  const t = useTranslations('hero');
-
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center text-center">
-      <LanguageSwitcher />
-      <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-        {t('title')}
-      </h1>
-      <p className="mt-6 text-lg leading-8 text-gray-600">
-        {t('subtitle')}
+    <section className="container mx-auto py-16 px-4">
+    <div className="bg-gradient-to-br from-green-500 to-purple-600 text-white p-10 rounded-2xl shadow-2xl">
+      <h2 className="text-5xl font-extrabold mb-6 leading-tight">Carbon 3 Labs</h2>
+      <p className="text-xl mb-8 opacity-90">
+        Aqui está a nossa visão e valores, com uma história de sucesso e
+        crescimento.
       </p>
-      <div className="mt-10 flex items-center justify-center gap-x-6">
-        <button className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-          {t('cta')}
-        </button>
-      </div>
-    </section>
+      <button className="bg-green-400 hover:bg-yellow-300 text-gray-900 py-3 px-8 rounded-full font-bold transition duration-300 transform hover:scale-105">
+        Conheça-nos
+      </button>
+    </div>
+  </section>
   );
 }
