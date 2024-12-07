@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="flex-grow bg-gray-50">{children}</main>
+          <main className="flex-grow bg-gradient-to-r from-green-600 to-indigo-600 text-white py-6 shadow-lg">{children}</main>
           <Footer />
         </div>
       </body>

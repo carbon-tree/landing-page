@@ -8,7 +8,7 @@ export default function HeroSection() {
         Aqui está a nossa visão e valores, com uma história de sucesso e
         crescimento.
       </p>
-      <button className="bg-green-400 hover:bg-yellow-300 text-gray-900 py-3 px-8 rounded-full font-bold transition duration-300 transform hover:scale-105">
+      <button className="bg-green-400 hover:bg-geen-300 text-gray-900 py-3 px-8 rounded-full font-bold transition duration-300 transform hover:scale-105">
         Conheça-nos
       </button>
     </div>
