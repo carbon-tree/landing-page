@@ -1,6 +1,5 @@
-import HeroSection from './sections/HeroSection';
-import AboutSection from './sections/AboutSection';
 import CarbonometerSection from './sections/CarbonometerSection';
+import HeroSection from './sections/HeroSection';
 
 export default function MainSection() {
   return (
