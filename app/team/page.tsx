@@ -4,7 +4,7 @@ export default function Team() {
   return (
     <section className="container mx-auto py-16 px-4">
       <h1 className="text-5xl font-extrabold mb-12 text-gray-800 text-center">
-        Nossa Equipe
+        Our Team
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {teamMembers.map((member, index) => (
@@ -25,7 +25,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300"
               >
-                Conectar no LinkedIn
+                Connect on LinkedIn
               </Link>
             </div>
           </div>
@@ -40,7 +40,7 @@ const teamMembers = [
     name: "Alexandre",
     role: "CEO",
     description:
-      "Especialista em tecnologia blockchain e sustentabilidade, Alexandre lidera nossa missão de revolucionar o mercado de carbono.",
+      "Blockchain technology and sustainability expert, Alexandre leads our mission to revolutionize the carbon market.",
     image:
       "https://media.licdn.com/dms/image/v2/D4D03AQFdEu6p9s2jhw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712708067341?e=1735171200&v=beta&t=2kPuCJehw4A_aArlyRGHHm-B2t320b4uovDr5T01WlY",
     linkedin: "https://www.linkedin.com/in/andre-de-faria",
@@ -49,14 +49,14 @@ const teamMembers = [
     name: "André",
     role: "CTO",
     description:
-      "Com vasta experiência em desenvolvimento de software, André está à frente de nossas inovações tecnológicas.",
+      "With extensive experience in software development, André leads our technological innovations.",
     image: "https://avatars.githubusercontent.com/u/39014633",
     linkedin: "https://www.linkedin.com/in//andre-de-faria",
   },
   {
     name: "Panayotis Giannopoulos",
-    role: "Jurista",
-    description: "Empresário, entusiasta das tecnologias desde 1983",
+    role: "Legal Advisor",
+    description: "Entrepreneur, technology enthusiast since 1983",
     image:
       "https://media.licdn.com/dms/image/v2/D4D03AQFS3XeIcdYLRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723007679779?e=1735171200&v=beta&t=izKif7BpCrxVzqwW_vO3iRrXQ0tnimoyMiWPmFwIT7Y",
     linkedin: "https://www.linkedin.com/in/panayotis-giannopoulos-br/",

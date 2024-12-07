@@ -29,7 +29,7 @@ export default function CarbonometerSection() {
   return (
     <section className="container mx-auto p-4">
       <div className="bg-gradient-to-br from-green-500 to-purple-600 text-white p-10 rounded-2xl shadow-2xl">
-        <h2 className="text-3xl font-bold mb-6 text-center">Carbonômetro</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Carbonometer</h2>
         <div className="flex flex-col items-center gap-8">
           <div className="text-6xl font-mono font-bold tracking-wider">
             {formatTime(time)}

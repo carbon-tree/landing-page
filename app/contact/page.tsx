@@ -4,14 +4,14 @@ export default function Contact() {
   return (
     <section className="container mx-auto py-16 px-4">
       <h1 className="text-5xl font-extrabold mb-10 text-gray-800 text-center">
-        Entre em Contato
+        Contact Us
       </h1>
 
       <div className="grid md:grid-cols-2 gap-12">
-        {/* Formulário de Contato */}
+        {/* Contact Form */}
         <div className="bg-white p-8 rounded-2xl shadow-xl">
           <h2 className="text-3xl font-bold mb-6 text-gray-800">
-            Envie uma mensagem
+            Send a message
           </h2>
           <form className="space-y-4"> {/* Adicionado espaço entre os elementos do formulário */}
             <div>
@@ -19,7 +19,7 @@ export default function Contact() {
                 htmlFor="name"
                 className="block text-gray-700 font-semibold mb-2"
               >
-                Nome
+                Name
               </label>
               <input
                 type="text"
@@ -33,7 +33,7 @@ export default function Contact() {
                 htmlFor="email"
                 className="block text-gray-700 font-semibold mb-2"
               >
-                E-mail
+                Email
               </label>
               <input
                 type="email"
@@ -47,7 +47,7 @@ export default function Contact() {
                 htmlFor="message"
                 className="block text-gray-700 font-semibold mb-2"
               >
-                Mensagem
+                Message
               </label>
               <textarea
                 id="message"
@@ -60,19 +60,19 @@ export default function Contact() {
               type="submit"
               className="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
             >
-              Enviar
+              Send
             </button>
           </form>
         </div>
 
-        {/* Informações de Contato e Redes Sociais */}
+        {/* Contact Information and Social Media */}
         <div className="bg-white p-8 rounded-2xl shadow-xl">
           <h2 className="text-3xl font-bold mb-6 text-gray-800">
-            Informações de Contato
+            Contact Information
           </h2>
           <p className="text-xl mb-4 text-gray-600">
-            Estamos ansiosos para ouvir de você! Entre em contato conosco
-            através dos seguintes meios:
+            We're looking forward to hearing from you! Contact us
+            through the following means:
           </p>
           <ul className="space-y-4 mb-8">
             <li className="flex items-center text-gray-600">
@@ -90,7 +90,7 @@ export default function Contact() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-              contato@carbon3labs.com
+              contact@carbon3labs.com
             </li>
             <li className="flex items-center text-gray-600">
               <svg
@@ -110,7 +110,7 @@ export default function Contact() {
               +55 (11) 9999-9999
             </li>
           </ul>
-          <h3 className="text-2xl font-bold mb-4 text-gray-800">Siga-nos</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">Follow Us</h3>
           <div className="flex space-x-4">
             <a href="#" className="text-blue-600 hover:text-blue-800">
               <FaFacebook size={24} />

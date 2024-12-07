@@ -4,7 +4,7 @@ export default function SuccessStories() {
   return (
         <section className="container mx-auto py-16 px-4">
           <h1 className="text-5xl font-extrabold mb-12 text-gray-800 text-center">
-            Histórias de Sucesso
+            Success Stories
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
@@ -23,7 +23,7 @@ export default function SuccessStories() {
                     href={testimonial.caseStudy}
                     className="inline-block bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300"
                   >
-                    Ler Estudo de Caso
+                    Read Case Study
                   </Link>
                 </div>
               </div>
@@ -35,13 +35,13 @@ export default function SuccessStories() {
 
 const testimonials = [
   {
-    name: "João Silva",
+    name: "John Smith",
     company: "Microsoft",
     image:
       "https://media.licdn.com/dms/image/v2/D5603AQHv6LsdiUg1kw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695167344576?e=1735171200&v=beta&t=agb9Rtcb9jVWWTazmqtCv2yz0Ij7h2_QeI-6YwSaKDQ",
     testimonial:
-      "A implementação do sistema revolucionou nossa produtividade. Recomendo fortemente!",
+      "The system implementation revolutionized our productivity. I strongly recommend it!",
     caseStudy: "https://www.linkedin.com/in/williamhgates",
   },
-  // Adicione mais depoimentos aqui
+  // Add more testimonials here
 ];

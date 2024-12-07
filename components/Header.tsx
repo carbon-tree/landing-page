@@ -1,9 +1,11 @@
 "use client"
 import Link from "next/link";
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useTranslation('common');
 
   return (
     <header className="bg-gradient-to-r from-green-600 to-indigo-600 text-white py-6 shadow-lg">
@@ -11,7 +13,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <Link href="/">
             <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight">
-              Carbon 3 Labs
+              Carbon 3 Labs {t('welcome')}
             </h1>
           </Link>
           
@@ -51,27 +53,27 @@ export default function Header() {
               </li>
               <li>
                 <Link href="/about" className="hover:text-gray-400">
-                  Sobre Nós
+                  About Us
                 </Link>
               </li>
               <li>
                 <Link href="/product" className="hover:text-gray-400">
-                  Produtos
+                  Products
                 </Link>
               </li>
               <li>
                 <Link href="/team" className="hover:text-gray-400">
-                  Equipe
+                  Team
                 </Link>
               </li>
               <li>
                 <Link href="/success-stories" className="hover:text-gray-400">
-                  Casos de Sucesso
+                  Success Stories
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="hover:text-gray-400">
-                  Contato
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -96,7 +98,7 @@ export default function Header() {
                 className="block hover:text-gray-400"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Sobre Nós
+                About Us
               </Link>
             </li>
             <li>
@@ -105,7 +107,7 @@ export default function Header() {
                 className="block hover:text-gray-400"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Produtos
+                Products
               </Link>
             </li>
             <li>
@@ -114,7 +116,7 @@ export default function Header() {
                 className="block hover:text-gray-400"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Equipe
+                Team
               </Link>
             </li>
             <li>
@@ -123,7 +125,7 @@ export default function Header() {
                 className="block hover:text-gray-400"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Casos de Sucesso
+                Success Stories
               </Link>
             </li>
             <li>
@@ -132,7 +134,7 @@ export default function Header() {
                 className="block hover:text-gray-400"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contato
+                Contact
               </Link>
             </li>
           </ul>
