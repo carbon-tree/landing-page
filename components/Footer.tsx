@@ -34,27 +34,6 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="text-center md:text-left">
-            <h3 className="font-bold text-xl text-white mb-4">Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="/about" className="hover:text-gray-300 transition duration-300">
-                  Sobre Nós
-                </a>
-              </li>
-              <li>
-                <a href="/team" className="hover:text-gray-300 transition duration-300">
-                  Equipe
-                </a>
-              </li>
-              <li>
-                <a href="/product" className="hover:text-gray-300 transition duration-300">
-                  Produtos
-                </a>
-              </li>
-            </ul>
-          </div>
-
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-sm">

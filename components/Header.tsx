@@ -1,11 +1,9 @@
 "use client"
 import Link from "next/link";
 import { useState } from "react";
-import { useTranslation } from 'react-i18next';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { t } = useTranslation('common');
 
   return (
     <header className="bg-gradient-to-r from-green-600 to-indigo-600 text-white py-6 shadow-lg">
@@ -13,7 +11,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <Link href="/">
             <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight">
-              Carbon 3 Labs {t('welcome')}
+              Carbon 3 Labs
             </h1>
           </Link>
           

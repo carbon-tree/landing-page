@@ -4,8 +4,8 @@ import HeroSection from './sections/HeroSection';
 export default function MainSection() {
   return (
     <main>
-      <HeroSection />
       <CarbonometerSection />
+      <HeroSection />
     </main>
   );
 }

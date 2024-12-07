@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 export default function Contact() {
   return (
     <section className="container mx-auto py-16 px-4">
-      <h1 className="text-5xl font-extrabold mb-10 text-gray-800 text-center">
+      <h1 className="text-5xl font-extrabold mb-10 text-white text-center">
         Contact Us
       </h1>
 
