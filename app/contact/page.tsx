@@ -71,7 +71,7 @@ export default function Contact() {
             Contact Information
           </h2>
           <p className="text-xl mb-4 text-gray-600">
-            We're looking forward to hearing from you! Contact us
+            We re looking forward to hearing from you! Contact us
             through the following means:
           </p>
           <ul className="space-y-4 mb-8">
