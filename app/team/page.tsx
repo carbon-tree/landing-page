@@ -62,14 +62,14 @@ const teamMembers = [
   {
     name: "Leonardo Ferah",
     role: "CDO",
-    description: "Entrepreneur and professional with 10 years of experience between tradicional and digital marketing.",
+    description: "Entrepreneur and marketing professional with a decade of experience bridging traditional and digital marketing. My expertise spans Strategic Planning, Digital Marketing, AI & Automation tools, Business Administration, and Team Management. In 2024, I was introduced to the Web3 and Blockchain market, which sparked my passion for this transformative space. Since then, I’ve been fully dedicated to developing my skills and exploring the endless possibilities within this innovative industry.",
     image: "/team/leonardo.jpg",
     linkedin: "https://www.linkedin.com/in/leonardoferah/",
   },
   {
     name: "Bruno Candiota",
-    role: "Legal Advisor",
-    description: "With solid experience in administrative routines and customer service.",
+    role: "Operational Support and Web3 Analyst",
+    description: "I have experience in customer service, with more than three years working in companies such as AES Eletropaulo and the Ministry of Agriculture, Livestock and Supply, managing emergency and commercial demands with tools such as the SAP system.",
     image: "/team/bruno.jpg",
     linkedin: "https://www.linkedin.com/in/bruno-candiota-b91a4bb8/",
   },
